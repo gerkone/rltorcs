@@ -30,8 +30,8 @@ RUN make install && make datainstall
 RUN rm -rf /usr/local/share/games/torcs/config
 RUN rm -rf /usr/local/share/games/torcs/drivers/human
 RUN mkdir -p /root/.torcs/
-RUN cp -R torcs/configs/* /usr/local/share/games/torcs
-RUN cp -R torcs/configs/* /root/.torcs
+RUN cp -R configs/* /usr/local/share/games/torcs
+RUN cp -R configs/* /root/.torcs
 
 # remove build tools
 RUN apt-get remove -y make g++
