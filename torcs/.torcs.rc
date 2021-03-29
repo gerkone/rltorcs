@@ -1,0 +1,2 @@
+TORCS_BASE = /home/ggalletti/git/pyTORCS-docker/torcs
+MAKE_DEFAULT = /home/ggalletti/git/pyTORCS-docker/torcs/Make-default.mk
