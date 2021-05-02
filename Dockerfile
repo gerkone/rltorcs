@@ -35,3 +35,7 @@ RUN cp -R configs/* /root/.torcs
 
 # remove build tools
 RUN apt-get remove -y make g++
+
+RUN cd .. && rm -rf torcs
+
+CMD ["/bin/bash"]
