@@ -15,7 +15,7 @@ RUN rm -rf /var/lib/apt/lists/*
 RUN touch ~/.Xauthority
 
 # build and install modified torcs
-COPY torcs torcs/
+COPY . torcs/
 
 WORKDIR torcs
 

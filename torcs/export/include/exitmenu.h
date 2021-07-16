@@ -1,1 +1,0 @@
-/home/ggalletti/git/pyTORCS-docker/torcs/src/libs/client/exitmenu.h
