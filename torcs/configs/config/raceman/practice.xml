@@ -37,7 +37,7 @@
   </section>
 
   <section name="Practice">
-    <attnum name="laps" val="20"/>
+    <attnum name="laps" val="2000"/>
     <attstr name="type" val="practice"/>
     <attstr name="starting order" val="drivers list"/>
     <attstr name="restart" val="yes"/>
@@ -60,8 +60,8 @@
     <attstr name="focused module" val="human"/>
     <attnum name="focused idx" val="1"/>
     <section name="1">
-      <attnum name="idx" val="1"/>
-      <attstr name="module" val="berniw"/>
+      <attnum name="idx" val="0"/>
+      <attstr name="module" val="scr_server"/>
     </section>
   </section>
 

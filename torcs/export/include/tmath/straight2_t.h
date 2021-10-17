@@ -1,1 +1,0 @@
-/home/ggalletti/git/pyTORCS-docker/torcs/src/libs/math/straight2_t.h
